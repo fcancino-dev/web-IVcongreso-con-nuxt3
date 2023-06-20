@@ -19,7 +19,7 @@ onBeforeMount(() => {
 </script>
 
 <template>
-    <nav class=" h-[70px] w-full bg-transparent scroll z-20 fixed top-0 left-0 "
+    <nav class=" h-[70px] w-full bg-transparent scroll z-20 fixed top-0 left-0 content-center"
         :class="{'bg-white': scrolled, 'bg-transparent': !scrolled, 'navbar-height': scrolled}"
     >
         <div class="navbar-bg" v-if="scrolled"></div>

@@ -1,18 +1,8 @@
 <script setup>
 
-const text = 'Calendario del Congreso'
-
 const onClick = () => {
     console.log('click')
 }
-
-const when = 'CUANDO'
-const dias = 'Lunes - Viernes'
-const fecha = 'Del 21 al 25 de Agosto 2023'
-const where = 'DONDE'
-const lugar = 'Aula Magna de la UNAP'
-const direccion = 'Iquitos, Perú'
-
 
 </script>
 
@@ -33,10 +23,10 @@ const direccion = 'Iquitos, Perú'
                 </div>
                 <div class="flex justify-start mt-8 space-x-52">
                     <div class="flex space-x-20">
-                        <GeneralDivCd :text1="when" :text2="dias" :text3="fecha"/>
-                        <GeneralDivCd :text1="where" :text2="lugar" :text3="direccion"/>
+                        <GeneralDivCd text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/>
+                        <GeneralDivCd text1="DONDE" text2="Aula Magna de la UNAP" text3="Iquitos, Perú"/>
                     </div>
-                    <GeneralButton :text="text" :onClick="onClick"/>
+                    <GeneralButton text="Calendario del Congreso" :onClick="onClick"/>
                 </div>
             </div>
         </div>
