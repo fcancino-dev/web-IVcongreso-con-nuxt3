@@ -1,12 +1,35 @@
 <script setup>
+import { ref } from 'vue'
 
 const tabsDias = [
-    { date: "Lunes, 21 de Agosto" },
-    { date: "Martes, 22 de Agosto"},
-    { date: "Miércoles, 23 de agosto"},
-    { date: "Jueves, 24 de Agosto"},
-    { date: "Viernes, 25 de Agosto"},
+    { 
+        // id: 1,
+        date: "Lunes, 21 de Agosto",
+        content: "Contenido del lunes"
+    },
+    { 
+        // id: 2,
+        date: "Martes, 22 de Agosto",
+        content: "Contenido del martes"
+    },
+    { 
+        // id: 3,
+        date: "Miércoles, 23 de agosto",
+        content: "Contenido del miércoles"
+    },
+    { 
+        // id: 4,
+        date: "Jueves, 24 de Agosto",
+        content: "Contenido del jueves"
+    },
+    { 
+        // id: 5,
+        date: "Viernes, 25 de Agosto",
+        content: "Contenido del viernes"
+    },
 ]
+
+const activeTab = ref(0)
 
 </script>
 
@@ -28,29 +51,35 @@ const tabsDias = [
                     <div class="border-b border-b-gray-400">
                         <ul class="flex items-center gap-2 text-sm font-medium">
                             <li 
-                                v-for="tabs in tabsDias" 
-                                :key="tabs.id" 
+                                v-for="(tabs,index) in tabsDias" 
+                                :key="index" 
                                 class="flex-1"
                             >
-                                <nuxt-link 
-                                    to=""
-                                    class=" flex items-center justify-center gap-2 rounded-lg bg-blue-500 px-3 py-2 text-white hover:bg-blue-600"
+                                <p 
+                                    @click="activeTab = index"
+                                    :class="{
+                                        'bg-blue-500 text-white': activeTab === index,
+                                        'text-gray-500 hover:bg-gray-50 hover:text-gray-700': activeTab !== index
+                                    }"
+                                    class=" flex items-center justify-center gap-2 rounded-t-[6px] px-3 py-2 text-gray-500 cursor-pointer"
                                 >
                                     {{ tabs.date }}
-                                </nuxt-link>
+                                </p>
                             </li>
-                            <!-- <li class="flex-1">
-                                <nuxt-link 
-                                    to=""
-                                    class="flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                                >
-                                    Martes, 22 de Agosto
-                                </nuxt-link>
-                            </li>-->
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8">
+                <div v-for="(tabs, index) in tabsDias" :key="index" >
+                    <div :id="index" v-show="activeTab === index">
+                        <!-- Contenido para la pestaña actual -->
+                        <p>{{ tabs.content }}</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<style></style>
