@@ -34,13 +34,13 @@ const activeTab = ref(0)
 </script>
 
 <template>
-    <section class="w-full bg-gray-300 py-24">
+    <section id="calendary" class="w-full bg-gray-200 py-24">
         <div class="fr-container">
             <div class="space-y-4">
                 <p class="text-center text-4xl font-bold font-[exo 2] leading-[45px]">
                 Calendario del IV Congreso
                 </p>
-                <p class="text-center text-[16.5px] font-[exo 2]">
+                <p class="text-center text-gray-500 text-[20px] font-[exo 2]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam aliquam ea
                 sint, aperiam minus unde tempore quaerat blanditiis ipsum ipsa magnam temporibus
                 perspiciatis provident ullam! Consequatur enim aspernatur quia.
@@ -69,12 +69,12 @@ const activeTab = ref(0)
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="mt-8">
-                <div v-for="(tabs, index) in tabsDias" :key="index" >
-                    <div :id="index" v-show="activeTab === index">
-                        <!-- Contenido para la pestaña actual -->
-                        <p>{{ tabs.content }}</p>
+                <div class="mt-8">
+                    <div v-for="(tabs, index) in tabsDias" :key="index" >
+                        <div :id="index" v-show="activeTab === index">
+                            <!-- Contenido para la pestaña actual -->
+                            <p>{{ tabs.content }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
