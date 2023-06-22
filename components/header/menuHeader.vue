@@ -36,7 +36,7 @@ onBeforeMount(() => {
                          :class="{ 'navbar-scrolled': scrolled }"
                     >
                         <span class=" text-xl font-bold leading-[22px]">IV Congreso</span>
-                        <p class="text-base font-normal leading-[22px]">Ingenieria de Sistemas</p>
+                        <p class="text-base font-normal leading-[22px]">Ingenieria de Sistemas UNAP</p>
                     </div>
                 </div>
             </NuxtLink>
