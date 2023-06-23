@@ -14,18 +14,25 @@ const props = defineProps({
         type: String,
         default: 'text3'
     },
+    icon: {
+        type: String,
+        default: 'user'
+    }
 })
-
 
 </script>
 
 <template>
-    <div>
-        <img src="@/assets/images/favicon.ico" alt="logo" class="w-[60px]" />
-        <p class="font-extrabold text-[16.5px] " >{{ text1 }}</p>
-        <div class="text-gray-600 font-[roboto] font-medium text-[17px]">
-            <p>[ {{ text2 }} ]</p>
-            <p>[ {{ text3 }} ]</p>
+    <div class=" space-y-5">
+        <div>
+            <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/>
+        </div>
+        <div>
+            <p class="font-extrabold text-[16.5px] " >{{ text1 }}</p>
+            <div class="text-gray-600 font-[roboto] font-medium text-[17px]">
+                <p>[ {{ text2 }} ]</p>
+                <p>[ {{ text3 }} ]</p>
+            </div>
         </div>
     </div>
 </template>

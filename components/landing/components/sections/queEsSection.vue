@@ -8,6 +8,7 @@
                     perspiciatis, distinctio eos facilis ad, aliquam exercitationem iste in laboriosam. Debitis 
                     consectetur sit temporibus et quae eligendi.
                 </p> -->
+                <font-awesome-icon icon="fa-brands fa-github-square" size="10x" rotation="" flip="" inverse fixed-width/>
             </div>
         </div>
     </section>

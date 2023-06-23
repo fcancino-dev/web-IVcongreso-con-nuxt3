@@ -4,6 +4,7 @@ const onClick = () => {
     console.log('click')
 }
 
+
 </script>
 
 <template>
@@ -21,10 +22,10 @@ const onClick = () => {
                         laborum qui vero?
                     </p>
                 </div>
-                <div class="flex justify-start mt-8 space-x-52">
+                <div class="flex justify-start mt-8 space-x-52">    
                     <div class="flex space-x-20">
-                        <GeneralDivCd text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/>
-                        <GeneralDivCd text1="DONDE" text2="Aula Magna de la UNAP" text3="Iquitos, Perú"/>
+                        <GeneralDivCd icon="calendar-check" text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/>
+                        <GeneralDivCd icon="map-location-dot" text1="DONDE" text2="Aula Magna de la UNAP" text3="Iquitos, Perú"/>
                     </div>
                     <GeneralButton text="Calendario del Congreso" :onClick="onClick"/>
                 </div>
