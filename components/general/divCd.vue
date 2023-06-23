@@ -14,9 +14,13 @@ const props = defineProps({
         type: String,
         default: 'text3'
     },
-    icon: {
+    // icon: {
+    //     type: String,
+    //     default: 'user'
+    // },
+    name: {
         type: String,
-        default: 'user'
+        default: 'akar-icons:alarm'
     }
 })
 
@@ -25,7 +29,10 @@ const props = defineProps({
 <template>
     <div class=" space-y-5">
         <div>
-            <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/>
+            <!-- <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/> -->
+            <div>
+                <Icon :name="name" size="90" color="#404b6c"/>
+            </div>
         </div>
         <div>
             <p class="font-extrabold text-[16.5px] " >{{ text1 }}</p>
