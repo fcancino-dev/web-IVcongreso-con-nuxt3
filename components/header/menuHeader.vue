@@ -35,7 +35,7 @@ onBeforeMount(() => {
                          class="flex flex-col items- text-lg font-semibold  font-[exo 2]  leading-4"
                          :class="{ 'navbar-scrolled': scrolled }"
                     >
-                        <span class=" text-xl font-bold leading-[22px]">IV Congreso</span>
+                        <span class=" text-xl font-bold leading-[22px]">III Congreso</span>
                         <p class="text-base font-normal leading-[22px]">Ingenieria de Sistemas UNAP</p>
                     </div>
                 </div>

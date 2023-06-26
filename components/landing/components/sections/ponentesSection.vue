@@ -1,5 +1,5 @@
 <script setup>
-import speaker1 from '@/assets/images/speaker-fondo.png';
+import speakerbg from '@/assets/images/speaker-bg2.jpg';
 
 const speakers = [
     {
@@ -57,7 +57,7 @@ const speakers = [
 <template>
     <section class=" w-full bg-gray-200 ">
         <div class=" h-full bg-cover bg-center bg-no-repeat bg-fixed" 
-            :style="{ backgroundImage:`url(${speaker1})`}"
+            :style="{ backgroundImage:`url(${speakerbg})`}"
         >
             <div class="fr-container pt-24 pb-[56px]">
                 <div class="space-y-10">

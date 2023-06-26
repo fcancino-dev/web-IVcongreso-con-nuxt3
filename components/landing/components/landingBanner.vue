@@ -15,7 +15,7 @@ import banner1 from '@/assets/images/banner1.jpg'
                     <div class="flex flex-col items-start justify-center space-y-6 text-white">
                         <span class="text-epg font-medium text-2xl font-[exo 2] leading-10">Del 21-25 de Agosto 2023 | Iquitos, Peru </span>
                         <div>
-                            <span class="text-epg font-bold text-6xl font-[exo 2] leading-20">IV CONGRESO </span>
+                            <span class="text-epg font-bold text-6xl font-[exo 2] leading-20">III CONGRESO </span>
                             <p class="text-epg font-bold text-6xl font-[exo 2] leading-20">REGIONAL DE  </p>
                             <span class="text-epg font-bold text-6xl font-[exo 2] leading-20">INGENIERÍA DE </span>
                             <p class="text-epg font-bold text-6xl font-[exo 2] leading-20">SISTEMAS</p>

@@ -39,11 +39,11 @@ const activeTab = ref(0)
     <div class="pt-10">
         <div>
             <div class="border-b border-b-gray-400">
-                <ul class="flex items-center gap-2 text-sm font-medium">
+                <ul class="flex items-center gap-2 text-[15px] font-bold">
                     <li v-for="(tabs, index) in tabsDias" :key="index" class="flex-1">
                         <p  @click="activeTab = index" 
                             :class="{
-                            'bg-blue-500 text-white': activeTab === index,
+                            'bg-blue-700 text-white': activeTab === index,
                             'text-gray-500 hover:bg-gray-50 hover:text-gray-700': activeTab !== index,
                             }"
                             class="flex items-center justify-center gap-2 rounded-t-[6px] px-3 py-2 text-gray-500 cursor-pointer"
@@ -54,7 +54,7 @@ const activeTab = ref(0)
                 </ul>
             </div>
         </div>
-        <div class="mt-8">
+        <div class="mt-14">
             <div v-for="(tabs, index) in tabsDias" :key="index">
                 <div :id="index" v-show="activeTab === index">
                     <!-- Contenido para la pestaña actual -->
