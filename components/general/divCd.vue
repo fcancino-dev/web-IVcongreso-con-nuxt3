@@ -31,7 +31,8 @@ const props = defineProps({
         <div>
             <!-- <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/> -->
             <div>
-                <Icon :name="name" size="90" color="#404b6c"/>
+                <!-- <Icon :name="name" size="90" color="#404b6c"/> -->
+                <Icon :name="name" size="90" color="#060348"/>
                 <!-- <img src="@/assets/images/alarm.svg" class=" w-8" alt="logo"> -->
             </div>
         </div>

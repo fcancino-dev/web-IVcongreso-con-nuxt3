@@ -30,13 +30,15 @@ onBeforeMount(() => {
         <div class=" fr-container h-full flex items-center justify-between py-[25px]">
             <NuxtLink to="/">
                 <div class="flex items-center gap-3 text-white">
-                    <img src="@/assets/images/favicon.ico" alt="logo"  />
+                    <div>
+                        <img  src="@/assets/images/logo3.png" alt="logo2" class="flex w-[45px]" />
+                    </div>
                     <div
-                         class="flex flex-col items- text-lg font-semibold  font-[exo 2]  leading-4"
+                         class="flex flex-col items- text-lg font-semibold  font-[exo 2]  leading-7"
                          :class="{ 'navbar-scrolled': scrolled }"
                     >
-                        <span class=" text-xl font-bold leading-[22px]">III Congreso</span>
-                        <p class="text-base font-normal leading-[22px]">Ingenieria de Sistemas UNAP</p>
+                        <span class="pt-2 fr-text text-2xl font-bold leading-[22px]">III Congreso</span>
+                        <p class="fr-p text-sm font-normal leading-[28px]">Ingenieria de Sistemas</p>
                     </div>
                 </div>
             </NuxtLink>
@@ -56,7 +58,7 @@ nav {
     color: black !important;
 }
 .navbar-height {
-    height: 70px;
+    height: 80px;
     
   
 }

@@ -43,7 +43,7 @@ const activeTab = ref(0)
                     <li v-for="(tabs, index) in tabsDias" :key="index" class="flex-1">
                         <p  @click="activeTab = index" 
                             :class="{
-                            'bg-blue-700 text-white': activeTab === index,
+                            'bg-[#100a6e] text-white': activeTab === index,
                             'text-gray-500 hover:bg-gray-50 hover:text-gray-700': activeTab !== index,
                             }"
                             class="flex items-center justify-center gap-2 rounded-t-[6px] px-3 py-2 text-gray-500 cursor-pointer"

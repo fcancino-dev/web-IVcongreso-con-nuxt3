@@ -19,7 +19,7 @@ const props = defineProps({
 
 <template>
     <div>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-[6px]" @click="onClick">
+        <button class="bg-[#060348] hover:bg-blue-700 text-white py-2 px-4 rounded-[6px]" @click="onClick">
             <span class=" font-[exo 2] text-base font-medium leading-6"> {{ text }}</span>
         </button>
     </div>       

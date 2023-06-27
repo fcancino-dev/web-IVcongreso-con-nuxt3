@@ -12,8 +12,8 @@ const onClick = () => {
         <div class="fr-container">
             <div class=" space-y-16">
                 <div class=" space-y-2">
-                    <h1 class="text-4xl font-bold font-[exo 2] leading-[60px]">Sobre IV Congreso Regional</h1>
-                    <p class=" text-[16.5px] leading-6 font-[exo 2]"> 
+                    <h1 class="fr-text text-4xl font-bold leading-[60px]">Sobre IV Congreso Regional</h1>
+                    <p class="fr-p text-[16.5px] leading-6"> 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil laboriosam tempore perspiciatis 
                         quam perferendis quaerat nulla voluptate rerum accusamus iure soluta consequuntur quo, officiis omnis 
                         optio expedita explicabo repellendus. 
@@ -26,6 +26,7 @@ const onClick = () => {
                     <div class="flex space-x-20">
                         <GeneralDivCd  text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/>
                         <!-- <GeneralDivCd  icon="calendar-check" text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/> -->
+                        <span class="bg-[#060348] w-1 h-23"></span> 
                         <GeneralDivCd name="akar-icons:check-in" text1="DONDE" text2="Aula Magna de la UNAP" text3="Iquitos, Perú"/>
                     </div>
                     <GeneralButton text="Calendario del Congreso" :onClick="onClick"/>
