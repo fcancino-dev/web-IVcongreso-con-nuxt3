@@ -55,7 +55,7 @@ nav {
 }
 
 .navbar-scrolled {
-    color: black !important;
+    color: #060348 !important;
 }
 .navbar-height {
     height: 80px;

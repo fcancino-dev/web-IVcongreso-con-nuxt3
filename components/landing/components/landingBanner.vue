@@ -23,7 +23,7 @@ import banner1 from '@/assets/images/banner1.jpg'
                         <div>
                             <span class=" font-normal text-3xl fr-text leading-10">"APLICACIONES DE LA </span>
                             <p class=" font-normal text-3xl fr-text  leading-10">INTELIGENCIA ARTIFICIAL</p>
-                            <p class=" font-normal text-3xl fr-text  leading-10"> EN LA AMAZONÍA PERUANA"</p>
+                            <p class=" font-normal  text-3xl fr-text  leading-10"> EN LA AMAZONÍA PERUANA"</p>
                         </div>
                     </div>
                 </div>

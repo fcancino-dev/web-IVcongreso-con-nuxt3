@@ -10,12 +10,12 @@ import calendarbg from "@/assets/images/calendar-bg.png";
         >
             <div class="fr-container py-24">
                 <div class="space-y-4">
-                    <p class="text-center text-4xl font-bold font-[exo 2] leading-[45px]">
-                    Calendario del IV Congreso
+                    <p class="fr-text text-center text-4xl font-black leading-[45px]">
+                    Calendario del III Congreso
                     </p>
                     <div class=" w-full ">
                         <div class=" px-[170px]">
-                            <p class="text-center text-gray-500 text-[20px] font-[exo 2]">
+                            <p class="fr-p text-center text-gray-500 text-[20px]">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam aliquam ea
                             sint, aperiam minus unde tempore quaerat blanditiis ipsum .
                             </p>

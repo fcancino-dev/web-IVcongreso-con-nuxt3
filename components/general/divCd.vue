@@ -1,7 +1,25 @@
-<script setup>
-import { defineProps } from 'vue'
+<script lang="ts" setup>
+// import { defineProps } from 'vue'
+import alarm from '@/assets/images/alarm.svg'
+// import location from '@/assets/images/location.svg'
 
-const props = defineProps({
+// interface IData {
+//     text1: string
+//     text2: string
+//     text3: string
+//     // icon: string
+//     url: string
+// }
+
+// const props: IData = {
+//     text1: 'text1',
+//     text2: 'text2',
+//     text3: 'text3',
+//     // icon: 'user',
+//     url: alarm
+// }
+
+defineProps({
     text1: {
         type: String,
         default: 'text1'
@@ -20,7 +38,7 @@ const props = defineProps({
     // },
     name: {
         type: String,
-        default: 'akar-icons:alarm'
+        default: alarm
     }
 })
 
@@ -31,14 +49,13 @@ const props = defineProps({
         <div>
             <!-- <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/> -->
             <div>
-                <!-- <Icon :name="name" size="90" color="#404b6c"/> -->
-                <Icon :name="name" size="90" color="#060348"/>
-                <!-- <img src="@/assets/images/alarm.svg" class=" w-8" alt="logo"> -->
+                <!-- <Icon :name="name" size="90" color="#060348"/> -->
+                <img :src="name" class=" w-[70px]" alt="logo">
             </div>
         </div>
         <div>
-            <p class="font-extrabold text-[16.5px] " >{{ text1 }}</p>
-            <div class="text-gray-600 font-[roboto] font-medium text-[17px]">
+            <p class="fr-text font-black text-[16.5px] " >{{ text1 }}</p>
+            <div class="fr-p text-gray-600 font-[roboto] font-medium text-[17px]">
                 <p>[ {{ text2 }} ]</p>
                 <p>[ {{ text3 }} ]</p>
             </div>
