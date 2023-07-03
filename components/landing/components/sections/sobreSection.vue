@@ -2,7 +2,10 @@
 import location from '@/assets/images/location.svg'
 
 const onClick = () => {
-    console.log('click')
+    const calendarioElement = document.getElementById('calendary');
+    if(calendarioElement){
+        calendarioElement.scrollIntoView({behavior: "smooth"});
+    }
 }
 
 

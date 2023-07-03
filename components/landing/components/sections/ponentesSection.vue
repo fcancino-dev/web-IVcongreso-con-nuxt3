@@ -1,7 +1,14 @@
-<script setup>
+<script lang="ts" setup>
 import speakerbg from '@/assets/images/speaker-bg2.jpg';
 
-const speakers = [
+interface Speaker {
+    id: number;
+    name: string;
+    role: string;
+    companyName: string;
+}
+
+const speakers: Speaker[] = [
     {
         id: 1,
         name: 'Jonathan Barnes',
