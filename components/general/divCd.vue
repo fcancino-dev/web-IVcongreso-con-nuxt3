@@ -1,23 +1,5 @@
 <script lang="ts" setup>
-// import { defineProps } from 'vue'
-import alarm from '@/assets/images/alarm.svg'
-// import location from '@/assets/images/location.svg'
-
-// interface IData {
-//     text1: string
-//     text2: string
-//     text3: string
-//     // icon: string
-//     url: string
-// }
-
-// const props: IData = {
-//     text1: 'text1',
-//     text2: 'text2',
-//     text3: 'text3',
-//     // icon: 'user',
-//     url: alarm
-// }
+import alarm from '@/assets/icons/alarm.svg'
 
 defineProps({
     text1: {
@@ -50,7 +32,7 @@ defineProps({
             <!-- <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/> -->
             <div>
                 <!-- <Icon :name="name" size="90" color="#060348"/> -->
-                <img :src="name" class=" w-[70px]" alt="logo">
+                <img :src="name" class=" w-[70px]" alt="logo" >
             </div>
         </div>
         <div>

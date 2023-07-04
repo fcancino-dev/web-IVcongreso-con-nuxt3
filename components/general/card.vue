@@ -1,7 +1,6 @@
-<script setup>
-import { defineProps } from 'vue';
+<script lang="ts" setup>
 
-const props = defineProps({
+defineProps({
     speaker: {
         type: String,
         default: 'Speaker'
@@ -36,5 +35,4 @@ const props = defineProps({
 .new-row {
   clear: both;
 }
-
 </style>

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import location from '@/assets/images/location.svg'
+import location from '@/assets/icons/location.svg'
 
 const onClick = () => {
     const calendarioElement = document.getElementById('calendary');
@@ -29,7 +29,6 @@ const onClick = () => {
                 <div class="flex justify-start mt-8 space-x-44">    
                     <div class="flex space-x-28">
                         <GeneralDivCd  text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/>
-                        <!-- <GeneralDivCd  icon="calendar-check" text1="CUANDO" text2="Lunes - Viernes" text3="Del 21 al 25 de Agosto 2023"/> -->
                         <!-- <span class="bg-[#ff3d00] w-1 h-23"></span>  -->
                         <GeneralDivCd :name="location" text1="DONDE" text2="Aula Magna de la UNAP" text3="Iquitos, Perú"/>
                     </div>
