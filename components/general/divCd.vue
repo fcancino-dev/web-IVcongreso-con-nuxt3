@@ -27,17 +27,17 @@ defineProps({
 </script>
 
 <template>
-    <div class=" space-y-5">
+    <div class=" space-y-2 md:space-y-3 lg:space-y-5 ">
         <div>
             <!-- <font-awesome-icon :icon="['fas', icon]" :style="{ color: 'blue' }" class="fa-4x"/> -->
             <div>
                 <!-- <Icon :name="name" size="90" color="#060348"/> -->
-                <img :src="name" class=" w-[70px]" alt="logo" >
+                <img :src="name" class="w-[50px] md:w-[60px] lg:w-[65px] xl:w-[70px]" alt="logo" >
             </div>
         </div>
-        <div>
-            <p class="fr-text font-black text-[16.5px] " >{{ text1 }}</p>
-            <div class="fr-p text-gray-600 font-[roboto] font-medium text-[17px]">
+        <div class="md:space-y-1">
+            <p class="fr-text font-black text-sm lg:text-[1rem] xl:text-[1.03rem] " >{{ text1 }}</p>
+            <div class="md:space-y-1 fr-p text-gray-600 font-medium text-sm md:text-[0.9rem] lg:text-[0.95rem] xl:text-[1.07rem]">
                 <p>[ {{ text2 }} ]</p>
                 <p>[ {{ text3 }} ]</p>
             </div>

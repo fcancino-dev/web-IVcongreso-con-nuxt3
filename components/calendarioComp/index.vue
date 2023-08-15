@@ -39,7 +39,7 @@ const activeTab = ref(0)
     <div class="pt-10">
         <div>
             <div class="border-b border-b-gray-400">
-                <ul class="flex items-center gap-2 text-[15px] font-bold">
+                <ul class="flex flex-col md:flex-row items-center gap-2 text-xs md:text-sm lg:text-[0.9375rem] font-bold">
                     <li v-for="(tabs, index) in tabsDias" :key="index" class="flex-1">
                         <p  @click="activeTab = index" 
                             :class="{
@@ -54,7 +54,7 @@ const activeTab = ref(0)
                 </ul>
             </div>
         </div>
-        <div class="mt-14">
+        <div class="mt-5 md:mt-10 lg:mt-14">
             <div v-for="(tabs, index) in tabsDias" :key="index">
                 <div :id="index" v-show="activeTab === index">
                     <!-- Contenido para la pestaña actual -->

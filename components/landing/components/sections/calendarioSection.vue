@@ -8,14 +8,14 @@ import calendarbg from "@/assets/images/calendar-bg.png";
         <div class=" h-full bg-cover bg-center bg-no-repeat bg-fixed" 
             :style="{ backgroundImage:`url(${calendarbg})`}"
         >
-            <div class="fr-container py-24">
+            <div class="fr-container py-24 px-4">
                 <div class="space-y-4">
-                    <p class="fr-text text-center text-4xl font-black leading-[45px]">
+                    <p class="fr-text text-center text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-black lg:leading-[45px]">
                     Calendario del III Congreso
                     </p>
                     <div class=" w-full ">
-                        <div class=" px-[170px]">
-                            <p class="fr-p text-center text-gray-500 text-[20px]">
+                        <div class=" lg:px-[140px] xl:px-[170px]">
+                            <p class="fr-p text-center text-gray-500 text-base md:text-lg lg:text-[1.13rem] xl:text-[1.25rem]">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam aliquam ea
                             sint, aperiam minus unde tempore quaerat blanditiis ipsum .
                             </p>

@@ -11,14 +11,10 @@
     align-items: center;
   }
 
-.fr-container {
-    @apply w-full lg:w-[80%] xl:max-w-7xl;
-    margin: 0 auto;
+  .fr-container {
+    @apply w-full md:w-[90%] lg:w-[85%] xl:w-[80%] 2xl:w-[70%] mx-auto;
   }
-/* .fr-container .fr-content {
-    @apply w-full lg:w-[80%] xl:max-w-7xl;
-    margin: 0 auto;
-  } */
+
 
 .fr-text {
     /* font-family: 'Roboto Slab', serif; */

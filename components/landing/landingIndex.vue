@@ -5,18 +5,21 @@
 </script>
 
 <template>
-    <LandingComponentsLandingBanner/>
-    <LandingComponentsSectionsSobreSection/>
-    <LandingComponentsSectionsPonentesSection/>
-    <LandingComponentsSectionsQueEsSection />
-    <LandingComponentsSectionsCalendarioSection />
-    <LandingComponentsSectionsAsistirSection />
-    <LandingComponentsSectionsPreciosSection />
-    <!-- <LandingComponentsSectionsExampleSection/> -->
-    <!-- <LandingComponentsSectionsComoParticiparSection />
-    <LandingComponentsSectionsBeneficiosSection />
-    <LandingComponentsSectionsPatrocinadoresSection />
-    <LandingComponentsSectionsPreciosSection />
-    <LandingComponentsSectionsPreguntasSection />
-    <LandingComponentsSectionsContactoSection /> -->
+    <main class="flex flex-col">
+        <LandingComponentsLandingBanner/>
+        <LandingComponentsSectionsSobreSection/>
+        <LandingComponentsSectionsPonentesSection/>
+        <LandingComponentsSectionsQueEsSection />
+        <LandingComponentsSectionsCalendarioSection />
+        <LandingComponentsSectionsAsistirSection />
+        <LandingComponentsSectionsPreciosSection />
+        <!-- <LandingComponentsSectionsExampleSection/> -->
+        <!-- <LandingComponentsSectionsComoParticiparSection />
+        <LandingComponentsSectionsBeneficiosSection />
+        <LandingComponentsSectionsPatrocinadoresSection />
+        <LandingComponentsSectionsPreciosSection />
+        <LandingComponentsSectionsPreguntasSection />
+        <LandingComponentsSectionsContactoSection /> -->
+        <FooterCustom/>
+    </main>
 </template>

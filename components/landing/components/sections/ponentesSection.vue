@@ -66,11 +66,11 @@ const speakers: Speaker[] = [
         <div class=" h-full bg-cover bg-center bg-no-repeat bg-fixed" 
             :style="{ backgroundImage:`url(${speakerbg})`}"
         >
-            <div class="fr-container pt-24 pb-[56px]">
+            <div class="fr-container pt-24 px-4 md:px-0 pb-[56px]">
                 <div class="space-y-10">
                     <div class=" space-y-2">
-                        <h1 class="fr-text text-4xl font-black leading-[60px] flex justify-center">Ponentes Principales del IV Congreso</h1>
-                        <p class="fr-p text-[20px] leading-6 text-gray-500 text-center"> 
+                        <h1 class="fr-text text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-black md:leading-[60px] flex justify-center text-center">Ponentes Principales del III Congreso</h1>
+                        <p class="fr-p text-base md:text-lg lg:text-[1.13rem] xl:text-[1.25rem] leading-6 text-gray-500 text-center"> 
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti fugit officia officiis,
                             odio asperiores necessitatibus veritatis sequi dicta consectetur? Pariatur cum, numquam cupiditate
                         </p>

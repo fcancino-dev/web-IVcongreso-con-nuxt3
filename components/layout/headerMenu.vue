@@ -1,5 +1,5 @@
 <template>
-    <ul class="flex gap-2 font-bold fr-text text-sm text-white">
+    <ul class="flex gap-2 font-bold fr-text items-center text-center text-sm text-white">
       <li>
         <NuxtLink class="fr-hover" to="/">HOME</NuxtLink>
       </li>
